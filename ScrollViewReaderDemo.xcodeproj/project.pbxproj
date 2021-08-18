@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BF00914B26CD5428000B6043 /* Swizzle.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF00914A26CD5428000B6043 /* Swizzle.swift */; };
+		BF00914C26CD5428000B6043 /* Swizzle.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF00914A26CD5428000B6043 /* Swizzle.swift */; };
 		BF568F8226319B770053970E /* Tests_iOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF568F8126319B770053970E /* Tests_iOS.swift */; };
 		BF568F8D26319B770053970E /* Tests_macOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF568F8C26319B770053970E /* Tests_macOS.swift */; };
 		BF568F8F26319B770053970E /* ScrollViewReaderDemoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF568F6626319B710053970E /* ScrollViewReaderDemoApp.swift */; };
@@ -35,6 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		BF00914A26CD5428000B6043 /* Swizzle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Swizzle.swift; sourceTree = "<group>"; };
 		BF568F6626319B710053970E /* ScrollViewReaderDemoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollViewReaderDemoApp.swift; sourceTree = "<group>"; };
 		BF568F6726319B710053970E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		BF568F6826319B770053970E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -100,6 +103,7 @@
 			children = (
 				BF568F6626319B710053970E /* ScrollViewReaderDemoApp.swift */,
 				BF568F6726319B710053970E /* ContentView.swift */,
+				BF00914A26CD5428000B6043 /* Swizzle.swift */,
 				BF568F6826319B770053970E /* Assets.xcassets */,
 			);
 			path = Shared;
@@ -308,6 +312,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BF00914B26CD5428000B6043 /* Swizzle.swift in Sources */,
 				BF568F9126319B780053970E /* ContentView.swift in Sources */,
 				BF568F8F26319B770053970E /* ScrollViewReaderDemoApp.swift in Sources */,
 			);
@@ -317,6 +322,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BF00914C26CD5428000B6043 /* Swizzle.swift in Sources */,
 				BF568F9226319B780053970E /* ContentView.swift in Sources */,
 				BF568F9026319B770053970E /* ScrollViewReaderDemoApp.swift in Sources */,
 			);

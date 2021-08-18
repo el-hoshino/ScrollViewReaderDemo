@@ -103,6 +103,9 @@ let demoSections: [Section] = [
     ]),
     .init(sectionTitle: "F", contents: [
     ]),
+    .init(sectionTitle: "G", contents: [
+        .init(contentTitle: "0"),
+    ]),
 ]
 
 struct ContentView: View {

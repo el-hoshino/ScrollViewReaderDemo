@@ -9,6 +9,12 @@ import SwiftUI
 
 @main
 struct ScrollViewReaderDemoApp: App {
+    
+    // Enable the method swizzling below if you want to check the bug in `scrollTo` method in SwiftUI
+//    init() {
+//        UITableView.swizzle()
+//    }
+    
     var body: some Scene {
         WindowGroup {
             ContentView()
